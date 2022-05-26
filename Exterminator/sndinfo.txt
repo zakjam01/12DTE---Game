@@ -1,0 +1,9 @@
+Exterminator/Bladehit EXHIT
+Exterminator/Death EXDIE
+Exterminator/Idle EXIDLE
+Exterminator/Pain EXPAIN
+Exterminator/Sight EXSEE
+Exterminator/Swing1 EXSW1
+Exterminator/Swing2 EXSW2
+Exterminator/Fire EXFIR
+$random Exterminator/Swing { Exterminator/Swing1 Exterminator/Swing2}

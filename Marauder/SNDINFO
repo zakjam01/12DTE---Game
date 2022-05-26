@@ -1,0 +1,23 @@
+$random marauder/speech { marauder/speech1 marauder/speech2 marauder/speech3 marauder/speech4 marauder/speech5 marauder/speech6 }
+marauder/speech1 				martnt1
+marauder/speech2 				martnt2
+marauder/speech3 				martnt3
+marauder/speech4 				martnt4
+marauder/speech5 				martnt5
+marauder/speech6				martnt6
+
+$random marauder/death { marauder/death1 marauder/death2 }
+marauder/death1				mardie1
+marauder/death2				mardie2
+
+$random marauder/pain { marauder/pain1 marauder/pain2 marauder/pain3 }
+marauder/pain1				marpain1
+marauder/pain2				marpain2
+marauder/pain3				marpain3
+
+marauder/charge				mareyes
+marauder/melee				marmelee
+axe/See						maraxfly
+axe/death					maraxhit
+
+marauderdog/death					dsfirxpl // spoilers: the dog dies

@@ -1,0 +1,8 @@
+Name: Rifle
+Class: 6
+Type: Hitscan
+Palette: Other
+Summon: Rifle
+Ammo Type: RifleAmmo
+Altfire: No
+Powered Mode: No

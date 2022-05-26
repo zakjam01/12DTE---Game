@@ -1,0 +1,14 @@
+Name: Marauder
+Difficulty: Hard/Very Hard depending on environment
+Connections: None
+Summon: Marauder
+Melee: Yes
+Distance: Projectile, Hitscan
+Type: Demon
+Brightmaps: No
+Actor modification: No
+ACS: No
+
+Description:
+A corrupt Night Sentinel out to kill the Slayer. Or, uh, Doomguy.
+Originally from Doom Eternal.

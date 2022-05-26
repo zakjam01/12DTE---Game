@@ -1,0 +1,79 @@
+Actor Rifle : Weapon
+{
+  Weapon.AmmoType "RifleAmmo"
+  Weapon.AmmoGive 10
+  Weapon.AmmoUse 1
+  Inventory.PickupMessage "You got the Rifle"
+  Inventory.PickupSound "misc/w_pkup"
+  Weapon.SelectionOrder 50
+  Weapon.Kickback 150
+  Decal BulletChip
+  States
+  {
+  Spawn:
+    RIFL A -1
+    Loop
+  Select:
+    RIFG A 1 A_Raise
+    Loop
+  Deselect:
+    RIFG A 1 A_Lower
+    Loop
+  Ready:
+    RIFG A 1 A_WeaponReady
+    Loop
+  Fire:
+    RIFG A 0 A_GunFlash
+    RIFG A 0 A_PlayWeaponSound("Weapons/RifleFire")
+    RIFG A 0 A_FireBullets(0, 0, 9, 5, "BlankPuff", 0)
+    RIFG A 4 A_FireBullets(0, 0, 1, 5, "BulletPuff", 1)
+    RIFG BCDCB 2
+    RIFG A 3
+    Goto Ready
+  Flash:
+    RIFF A 2 Bright A_Light1
+    RIFF B 2 Bright A_Light2
+    TNT1 A 0 A_Light0
+    Stop
+  }
+}
+
+Actor RifleAmmo : Ammo
+{
+  Inventory.Amount 5
+  Inventory.MaxAmount 75
+  Ammo.BackpackAmount 5
+  Ammo.BackpackMaxAmount 150
+  Inventory.Icon RIFAB0
+  Inventory.PickupMessage "Picked up some rifle cartridges"
+  Inventory.PickupSound "misc/i_pkup"
+  States
+  {
+  Spawn:
+    RIFA A -1
+    Loop
+  }
+}
+
+Actor RifleBox : RifleAmmo
+{
+  Inventory.Amount 25
+  Inventory.PickupMessage "Picked up a box of rifle cartridges"
+  States
+  {
+  Spawn:
+    RIFP A -1
+    Loop
+  }
+}
+
+Actor BlankPuff
+{         
+  +NoClip
+  States
+  {
+  Spawn:
+    TNT1 A 1
+    Stop   
+  }
+}

@@ -1,0 +1,50 @@
+MARAUDER USAGE GUIDE
+
+For those unfamiliar with the Marauder, he's a very difficult enemy. Here's a
+useful guide to get the best use out of such an unusual foe.
+
+The Marauder is a formidable enemy, moving almost as fast as the player, armed
+with powerful projectile, hitscan, AND melee attacks, and even being able to use
+a shield and summon support. Here's a guide to his attacks:
+
+1. Whenever the Marauder is moving around, his shield is always prepared.
+2. If the target is closer than 200 MU, he'll use his Super Shotgun against the
+player. When he does this, he is vulnerable, but trying to bait SSG attacks will
+probably kill you.
+3. If the target is closer than 300 MU but not closer than 200, he'll use a
+charge attack. This will be signified by the Marauder's eyes turning green and
+an audio cue (MAREYES in the files). When he is charging, his shield will be
+unprepared, therefore this is the time to strike. Be careful, however; this
+attack does massive damage!
+4. If the target is farther than 300 MU, he'll swing his axe to make magical axe
+projectiles. He isn't vulnerable to attacks during this, so be careful!
+5. If the Marauder's shield is hit, he'll take no damage. If it gets raised
+three times, he'll summon a wolf to fight for him. Luckily, the wolf doesn't
+have much health, but it attacks and runs fast and can do serious damage if left
+unchecked.
+
+Modders can provide a notice similar to the following to teach unprepared
+players the Marauder's attack style:
+	The Marauder is a powerful enemy with several attacks similar to the
+	protagonist's. He carries a shield and can only be hit when vulnerable.
+	Watch out for cues for the shield going down.
+
+Here's a guide to making good use of the Marauder:
+1. Never put the Marauder in a cramped space with no way for him to get to an
+open one nearby. Make sure to test how it feels in the area.
+2. Building on the above, don't make the area smaller to make Marauder fights
+harder. Throw more enemies into the arena! Doom Eternal even had a double
+Marauder fight in The Ancient Gods: Part 1, but I wouldn't try that until the
+player is very comfortable with fighting them.
+3. The Marauder is not an E1 boss, so don't put it against a poorly-armed
+player. The best weapon to fight the Marauder with is the SUPER SHOTGUN, so
+I'd strongly recommend arming the player with that if you can! If you can't for
+some reason (e.g. placed in a Doom 1 mod), some other suitable weapons would be
+the Chaingun, the Plasma Rifle, or any of Skulltag's weapons (but the Railgun
+would probably work best). Also feel free to experiment with weapon
+availablility; this is a guide, not a rulebook!
+
+Another thing: the ORIGSOUNDS folder has the original, high-quality versions of
+the sounds at a crisp 44.1KHz. The sounds in SOUNDS are sampled at 22.05KHz to
+make them sound more vanilla. If you want to use the HQ sounds, just delete
+SOUNDS and rename ORIGSOUNDS to SOUNDS.
